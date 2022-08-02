@@ -2,23 +2,23 @@
 // LOOP
 // ------------------
 // 1. Display "Ajke amar mon valo nei" for 39 times
-// for (i = 0; i < 40; i++) {
-//     console.log(`Ajke amar mon valo nei`);
-// }
+for (i = 0; i < 40; i++) {
+    console.log(`Ajke amar mon valo nei`);
+}
 
 // 2. Display numbers between 58 to 98
-// for (i = 58; i <= 98; i++) {
-//     console.log(i);
-//     console.log(`hello`);
-// }
+for (i = 58; i <= 98; i++) {
+    console.log(i);
+    console.log(`hello`);
+}
 // 3. Show all even numbers from 412 to 456
-// for (i = 412; i <= 456; i = i + 2) {
-//     console.log(i);
-// }
+for (i = 412; i <= 456; i = i + 2) {
+    console.log(i);
+}
 // 4. Show all odd numbers 581 to 623
-// for (var i = 581; i <= 623; i = i + 2) {
-//     console.log(i);
-// }
+for (var i = 581; i <= 623; i = i + 2) {
+    console.log(i);
+}
 
 // 5. Difference between while loop and for loop
 
