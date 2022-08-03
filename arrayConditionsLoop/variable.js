@@ -68,3 +68,8 @@ console.log(parseFloat(`23324.233423`));
 var a = 24 / 7;
 console.log(a); //3.4285714285714284
 console.log(a.toFixed(2)); //3.43
+function add(num1, num2) {
+    return 1;
+    return 2;
+    return 3;
+}
