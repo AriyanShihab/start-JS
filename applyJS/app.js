@@ -20,7 +20,7 @@ console.log(getMunites(5));
 // new array, return the new array and print the result.
 
 function isLeapYear(year) {
-    if (year % 4 === 0 && year % 100 && year % 400) {
+    if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
         return true;
     }
 }
@@ -78,7 +78,7 @@ console.log(getSecond(1));
 function nextLeapYear(year) {
     let nxtYear = year + 1;
 
-    if (nxtYear % 4 === 0 && nxtYear % 100 && nxtYear % 400) {
+    if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
         console.log(`it's an leap year`);
         return true;
     } else {
